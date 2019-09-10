@@ -116,7 +116,7 @@ div{
     background-color: #ccc;
   }
   .panel {
-    padding: 0 18px;
+    padding: 0px;
     background-color: white;
     display: none;
     overflow: hidden;
