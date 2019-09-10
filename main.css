@@ -34,8 +34,9 @@ div{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
 }
 @media (min-aspect-ratio: 16/9) {
     .fullscreen-bg__video {
@@ -68,7 +69,7 @@ div{
   .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     border: none;
   }
@@ -101,22 +102,23 @@ div{
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-  #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+  .accordion {
+    background-color: rgb(247, 242, 242);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: middle;
+    border: none;
+    outline: none;
+    transition: 0.4s;
   }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
   }
