@@ -16,7 +16,6 @@ h1{
 }
 
 div{
-    border:double;
     color:black;
 }
 
@@ -103,7 +102,7 @@ div{
 
 
   .accordion {
-    background-color: rgb(247, 242, 242);
+    background-color: rgba(247, 242, 242, 0.5);
     color: #444;
     cursor: pointer;
     padding: 18px;
