@@ -3,8 +3,12 @@ h1,h2,p,ol,ul{
     font-family: 'Indie Flower', cursive;
     background-color:rgba(253, 253, 253, 0.5);
 }
+.large{
+    font-size:50px;
+}
 h1{
     font-size:45px;
+    color:red;
 }
 *{
     box-sizing: border-box;
@@ -12,7 +16,7 @@ h1{
 }
 
 body{
-    background-image:url("planets.jpg");
+    background-image:url("planet2.jpg");
     background-color:rgba(253, 253, 253, 0.932);
     height:500px;
     background-position: center;
@@ -23,3 +27,4 @@ div{
     border:double;
     color:black;
 }
+
