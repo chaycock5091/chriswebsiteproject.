@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 h1,h2,p,ol,ul{
     font-family: 'Indie Flower', cursive;
-    background-color:rgba(253, 253, 253, 0.5);
 }
 .large{
     font-size:50px;
@@ -137,6 +136,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  width: 100%;
 }
 
 a:hover, a:active {
