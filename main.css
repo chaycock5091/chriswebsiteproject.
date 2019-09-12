@@ -108,6 +108,7 @@ div{
     padding: 18px;
     width: 100%;
     text-align: middle;
+    text-size-adjust: 50px;
     border: none;
     outline: none;
     transition: 0.4s;
